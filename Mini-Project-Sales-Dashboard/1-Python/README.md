@@ -56,7 +56,7 @@ I created boxplots using Seaborn to visualize the distributions of the selected 
 
 #### 3. Order Profit Per Order
 
-![Order Profit Per Order Boxplot](plots/Order_Profit_Per_Order_boxplot.png)
+![Order Profit Per Order Boxplot](./Boxplot%20of%20Order%20profit%20per%20order.png)
 
 #### 4. Order Item Total
 
