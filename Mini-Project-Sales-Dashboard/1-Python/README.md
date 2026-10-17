@@ -50,8 +50,7 @@ I created boxplots using Seaborn to visualize the distributions of the selected 
 
 Image file: `plots/Sales_boxplot.png`
 
-
-![Boxplot of Sales](plot/Boxplot%20of%20sales.png))
+![Sales Boxplot](./Boxplot%20of%20Sales.png)
 
 #### 2. Order Item Discount
 
