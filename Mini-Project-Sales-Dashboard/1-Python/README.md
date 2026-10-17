@@ -48,33 +48,23 @@ I created boxplots using Seaborn to visualize the distributions of the selected 
 
 #### 1. Sales
 
-Image file: `plots/Sales_boxplot.png`
-
 ![Sales Boxplot](./Boxplot%20of%20Sales.png)
 
 #### 2. Order Item Discount
 
-Image file: `plots/Order_Item_Discount_boxplot.png`
-
-![Order Item Discount Boxplot](plots/Order_Item_Discount_boxplot.png)
+![Order Item Discount Boxplot](./Boxplot%20of%20Order%20item%20discount.png)
 
 #### 3. Order Profit Per Order
-
-Image file: `plots/Order_Profit_Per_Order_boxplot.png`
 
 ![Order Profit Per Order Boxplot](plots/Order_Profit_Per_Order_boxplot.png)
 
 #### 4. Order Item Total
 
-Image file: `plots/Order_Item_Total_boxplot.png`
-
-![Order Item Total Boxplot](plots/Order_Item_Total_boxplot.png)
+![Order Item Total Boxplot](./Boxplot%20of%20Order%20item%20total.png)
 
 #### 5. Product Price
 
-Image file: `plots/Product_Price_boxplot.png`
-
-![Product Price Boxplot](plots/Product_Price_boxplot.png)
+![Product Price Boxplot](./Boxplot%20of%20Product%20Price.png)
 
 ### Conclusion
 
