@@ -2,22 +2,17 @@
 
 The first stage of the data analysis process focused on understanding, cleaning, and preparing the dataset using Python.
 
-First, I imported the required libraries, particularly Pandas, and loaded the dataset using `read_csv()`.
+First, I imported the libraries I need. Pandas is the most important one because it lets us load the file and work with the data as a table. NumPy is used for calculations. Matplotlib and Seaborn are used later to draw charts. I import everything at the start so I don’t have to stop and add libraries in the middle of the analysis
 
-To understand the dataset structure, I used:
+Then I loaded the dataset using pd.read_csv, and I stored it in a variable called df. I used encoding='latin1' because the file contains special characters, and without it, Python can give us an error while reading. After that, I used head() to show the first five rows. The reason is to make sure the file was loaded correctly and to get a first look at the columns and the values.
 
-- `head()` to display the first five rows.
-- `info()` to inspect column names, data types, and non-null values.
-- `columns` to review all column names.
-- `isnull()` and `isnull().sum()` to identify missing values.
+Next, I wanted to understand the data better. I used info(), which shows the number of rows and columns, the data type of each column, and how many values are not empty. I found 180,519 rows and 53 columns. Then I used isnull().sum(), which counts the missing values in each column. The reason is that missing values can cause errors and give wrong results, so I must find them before the analysis. Finally, I used columns to see the exact names of all columns, because I need to write them correctly in the next steps.
 
-After exploring the dataset, I removed unnecessary columns using `drop()` and applied `inplace=True` to update the DataFrame directly. I then checked the column names and previewed the data to verify the changes.
+After exploring the data, I removed the columns that I don’t need using drop(). The reason is that these columns don’t add value to our analysis, and some of them are almost empty, like Product Description, which has no values at all. Removing them makes the dataset smaller, cleaner, and faster to work with. Then I used head() and columns again to confirm that the columns were removed correctly.
 
-Next, I handled missing values using `fillna()`. Finally, I used `isnull().sum()` again to verify the results of the cleaning process.
+After that, I handled the missing values using fillna(). In the Customer Last Name column, I filled the empty values with ‘Uk’, which means ‘Unknown’. I used text here because the column contains text. In the Customer Zipcode column, I filled the empty values with zero, because this column contains numbers. The reason is that I didn’t want to delete these rows, since only a few values were missing, and deleting them would lose other useful information about the orders. Finally, I ran isnull().sum() again to confirm that there are no missing values left.
 
-This stage helped me understand the dataset structure, address missing values, remove unnecessary columns, and prepare the data for further analysis.
-
----
+-----
 
 ## 2. Outlier Detection and Analysis
 
