@@ -10,7 +10,8 @@ Next, I wanted to understand the data better. I used info(), which shows the num
 
 After exploring the data, I removed the columns that I don’t need using drop(). The reason is that these columns don’t add value to our analysis, and some of them are almost empty, like Product Description, which has no values at all. Removing them makes the dataset smaller, cleaner, and faster to work with. Then I used head() and columns again to confirm that the columns were removed correctly.
 
-After that, I handled the missing values using fillna(). In the Customer Last Name column, I filled the empty values with ‘Uk’, which means ‘Unknown’. I used text here because the column contains text. In the Customer Zipcode column, I filled the empty values with zero, because this column contains numbers. The reason is that I didn’t want to delete these rows, since only a few values were missing, and deleting them would lose other useful information about the orders. Finally, I ran isnull().sum() again to confirm that there are no missing values left.
+After that, I handled the missing values using fillna(). In the Customer Last Name column, I filled the empty values with ‘Uk’, which means ‘Unknown’. I used text here because the column contains text. In the Customer Zipcode column, I filled the empty values with zero, because this column contains numbers. The reason is that I didn’t want to delete these rows, since only a few values were missing, and deleting them would lose other useful information about the orders. 
+Finally, I ran isnull().sum() again to confirm that there are no missing values left.
 
 -----
 
