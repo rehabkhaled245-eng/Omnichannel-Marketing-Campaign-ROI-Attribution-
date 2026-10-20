@@ -26,3 +26,19 @@ Focuses on sales and profitability across different regions and markets. It incl
 ![Sales Analysis](Sales%20Analysis.jpg)
 
 [🔗 View Sales Analysis](Sales%20Analysis.jpg)
+
+---
+
+### 4. Customer & Product Analysis
+This page shows who is buying (customers and segments) and what is selling (products and categories) between January 2015 and January 2018, so we can see where revenue comes from and how concentrated it is.
+
+
+![Customer & Product Analysis](Customer%20&%20Product%20Analysis.jpg)
+
+
+
+[🔗 View Customer & Product Analysis](Customer%20&%20Product%20Analysis.jpg)
+
+
+
+
