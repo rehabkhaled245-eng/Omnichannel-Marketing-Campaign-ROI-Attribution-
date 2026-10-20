@@ -26,12 +26,3 @@ Focuses on sales and profitability across different regions and markets. It incl
 ![Sales Analysis](Sales%20Analysis.jpg)
 
 [🔗 View Sales Analysis](Sales%20Analysis.jpg)
-
----
-
-### 4. Shipping & Delivery
-Provides insights into shipping and delivery performance, helping users explore delivery-related metrics and analyze shipping operations.
-
-![Shipping and Delivery Dashboard](Shipping_and_Delivery_Dashboard.png)
-
-[🔗 View Shipping and Delivery Dashboard](Shipping_and_Delivery_Dashboard.png)
