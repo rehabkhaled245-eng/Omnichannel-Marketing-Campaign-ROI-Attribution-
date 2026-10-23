@@ -35,9 +35,23 @@ This page shows who is buying (customers and segments) and what is selling (prod
 
 ![Customer & Product Analysis](Customer%20&%20Product%20Analysis.jpg)
 
-
-
 [🔗 View Customer & Product Analysis](Customer%20&%20Product%20Analysis.jpg)
+
+
+
+### 5. Shipping and Delivery Dashboard
+The Power BI Shipping & Delivery dashboard, including delivery status, late orders, shipping duration KPIs, and delivery risk analysis.
+
+
+![Shipping and Delivery](Shipping_and_Delivery_Dashboard.png)
+
+[🔗 View Shipping and Delivery](Shipping_and_Delivery_Dashboard.png)
+
+
+
+
+
+
 
 
 
